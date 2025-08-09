@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99476230533",
+    "project_id": "caleb-cj-williams-cb8c7",
+    "storage_bucket": "caleb-cj-williams-cb8c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99476230533:android:cda5d0e32e956ba6bd34ec",
+        "android_client_info": {
+          "package_name": "app.android.caleb_cj_williams"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPcRAPLr2HBv7slhHdiL3_-spSjDnjXn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

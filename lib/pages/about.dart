@@ -107,7 +107,7 @@ class _AboutPageState extends State<AboutPage> with TickerProviderStateMixin {
                           _buildAnimatedSection(
                             delay: 400,
                             child: const Text(
-                              'Caleb "CJ" Williams is a rising talent in the entertainment industry, known for his dynamic performances and natural charisma. Born with a passion for storytelling and performance, CJ has been making waves in television, film, and voice acting.\n\nWith a foundation built on dedication and talent, CJ brings authenticity and energy to every role. His journey in entertainment began at a young age, and he has continued to grow and evolve as a performer, taking on challenging roles that showcase his versatility.\n\nBeyond acting, CJ is passionate about sports, music, and technology. He enjoys staying active, exploring new creative outlets, and connecting with fans who share his interests. His commitment to his craft and his genuine personality make him a standout talent to watch.',
+                              'Caleb "CJ" Williams is a talented young actor with a natural charisma and an undeniable passion for performing. Known for his ability to bring authenticity and energy to every role, Caleb has appeared in a range of projects, from commercials and short films to television and film. Whether delivering heartfelt drama or lighthearted comedy, Caleb\'s performances showcase his versatility, professionalism, and dedication to his craft.\n\nAt just 11 years old, CJ has already won an award for best supporting actor in a comedy series. He joined the casts of Abbott Elementary, The Santa Clauses, Night Court and The Wonder Years. CJ has also been featured in short films such as Trife, Just One and Just Kidding. Expanding upon his acting chops, CJ makes his voiceover debut in the animation series Weather Hunters, brought to you by PBS and Al Roker. With a growing list of credits and a strong work ethic, Caleb "CJ" Williams continues to make his mark in the entertainment industry — one role at a time.\n\nA talented athlete with Harlem Globetrotters roots, CJ combines his love for basketball with a passion for giving back. Through his family\'s Dare2Dream Foundation recently honored by the NBA G-League\'s Wisconsin Herd. He inspires youth through sports, education, and character-building programs. Outside of acting, he enjoys playing competitive sports, coding apps, reading and making music. While his favorite subject in school is science, he also has a growing passion for directing and a long-term goal of one day becoming a doctor. With his talent, drive, and dedication, CJ is poised to leave a lasting mark both in entertainment and beyond.',
                               style: TextStyle(
                                 fontSize: 16,
                                 height: 1.6,
@@ -127,23 +127,23 @@ class _AboutPageState extends State<AboutPage> with TickerProviderStateMixin {
                               children: [
                                 _buildFeatureItem(
                                   Icons.tv,
-                                  'Television Appearances',
-                                  'Featured roles in various television productions',
+                                  'Television Series',
+                                  'Abbott Elementary, The Santa Clauses, Night Court, The Wonder Years',
                                 ),
                                 _buildFeatureItem(
                                   Icons.movie,
-                                  'Film Projects',
-                                  'Compelling performances in independent and studio films',
+                                  'Short Films',
+                                  'Trife, Just One, Just Kidding',
                                 ),
                                 _buildFeatureItem(
                                   Icons.mic,
                                   'Voice Acting',
-                                  'Bringing characters to life through voice work',
+                                  'Weather Hunters (PBS animation series with Al Roker)',
                                 ),
                                 _buildFeatureItem(
-                                  Icons.theater_comedy,
-                                  'Live Performance',
-                                  'Stage work and live entertainment experiences',
+                                  Icons.emoji_events,
+                                  'Awards',
+                                  'Best Supporting Actor in a Comedy Series',
                                 ),
                               ],
                             ),
@@ -159,29 +159,34 @@ class _AboutPageState extends State<AboutPage> with TickerProviderStateMixin {
                             child: Column(
                               children: [
                                 _buildFeatureItem(
-                                  Icons.sports,
-                                  'Athletics',
-                                  'Active in various sports and fitness activities',
+                                  Icons.sports_basketball,
+                                  'Basketball',
+                                  'Talented athlete with Harlem Globetrotters roots',
                                 ),
                                 _buildFeatureItem(
                                   Icons.music_note,
                                   'Music',
-                                  'Passionate about music and musical performance',
+                                  'Enjoys making music and musical performance',
                                 ),
                                 _buildFeatureItem(
-                                  Icons.camera_alt,
-                                  'Content Creation',
-                                  'Exploring digital media and content development',
+                                  Icons.code,
+                                  'Coding',
+                                  'Passionate about coding apps and technology',
                                 ),
                                 _buildFeatureItem(
-                                  Icons.people,
-                                  'Community Engagement',
-                                  'Connecting with fans and supporting causes',
+                                  Icons.book,
+                                  'Reading',
+                                  'Enjoys reading and continuous learning',
                                 ),
                                 _buildFeatureItem(
-                                  Icons.school,
-                                  'Continuous Learning',
-                                  'Committed to growing as an artist and individual',
+                                  Icons.science,
+                                  'Science',
+                                  'Favorite subject in school with interest in medicine',
+                                ),
+                                _buildFeatureItem(
+                                  Icons.volunteer_activism,
+                                  'Community Service',
+                                  'Dare2Dream Foundation - inspiring youth through sports and education',
                                 ),
                               ],
                             ),

@@ -252,6 +252,21 @@ class _SocialPageState extends State<SocialPage> with TickerProviderStateMixin {
                         children: [
                           const SizedBox(height: 20),
                           
+                          // Instagram Link positioned under header
+                          _buildAnimatedSection(
+                            delay: 100,
+                            child: SocialButton(
+                              label: 'Instagram',
+                              accountId: '@cjwilliams_42',
+                              icon: FontAwesomeIcons.instagram,
+                              onPressed: () => _launchUrlWithContext(
+                                context,
+                                'https://www.instagram.com/cjwilliams_42/',
+                                'Instagram',
+                              ),
+                            ),
+                          ),
+                          
                           // IMDb Link positioned under header
                           _buildAnimatedSection(
                             delay: 200,

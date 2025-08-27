@@ -151,6 +151,7 @@ void main() async {
       'show_banner': false,
       'banner_image_url': 'https://apps.bfacmobile.com/images/application/183/features/image_gallery/6339/686d59621ade7.jpg',
       'banner_link_url': 'https://athleteapps.com/',
+      'show_hamburger_menu': false,
     });
     
     // Initialize our Remote Config Service (this will fetch and cache values)
